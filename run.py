@@ -373,7 +373,7 @@ class Menu():
 			print ('%s•%s 05 %sCrack from group members'%(U,P,O))
 			print ('%s•%s 06 %sCrack of name search'%(U,P,O))
 			print ('%s•%s 07 %sCrack of messenger messages'%(U,P,O))
-			print ('%s•%s 08 %sCrack from friend's suggestion'%(U,P,O))
+			print ('%s•%s 08 %sCrack from friends suggestion'%(U,P,O))
 			print ('%s•%s 09 %sCrack user instagram %spro'%(U,P,O,H))
 			#print ('%s•%s 10 %sSetting user agent'%(U,P,O))
 			print ('%s•%s 10 %sView crack results'%(U,P,O))
