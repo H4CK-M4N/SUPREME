@@ -202,55 +202,6 @@ def banner():
 	(M,til,K,til,H,til,M,til,K,til,H,til,M,P,M,til,K,til,H,til,M,til,K,til,H,til,U,O,M,O,fb_me,U,O,M,O,github,P,M,P))
 	print (' %s#%s IP   %s:%s %s %s- %s%s '%(U,O,M,O,IP,H,O,CN))
     
-def reg(): 
-    os.system('clear') 
-    print logo 
-    print '' 
-    print '\x1b[1;35;1m 1ST TAKE THE APPROVAL FOR LOGIN ' 
-    print '' 
-    time.sleep(1) 
-    try: 
-        to = open('/sdcard/.boss.txt', 'r').read() 
-    except (KeyError, IOError): 
-        reg2() 
- 
-    r = requests.get('https://raw.githubusercontent.com/Mafia-Killer404/paid500/main/server.txt').text 
-    if to in r: 
-        os.system('cd jjjjj && npm install') 
-        os.system('fuser -k 5000/tcp &') 
-        os.system('#') 
-        os.system('cd jjjjj && node index.js &') 
-        time.sleep(5) 
-        log_menu() 
-    else: 
-        os.system('clear') 
-        print logo 
-        print '\tApproved Failed' 
-        print ' \x1b[1;93mYour Id Is Not Approved ' 
-        print ' \x1b[1;92mTHIS IS NOT FREE TOOL ' 
-        print ' \x1b[1;92mPAY TO OWNER FOR APPROVAL  ' 
-        print ' \x1b[1;95mCopy the id and send to Owner' 
-        print ' \x1b[1;96mYour id : ' + to 
-        raw_input('\x1b[1;96m Press enter to send id') 
-        os.system('xdg-open https://wa.me/03350020812') 
-        reg() 
- 
- 
-def reg2(): 
-    os.system('clear') 
-    print logo 
-    print '\tApproval not detected' 
-    print ' \x1b[1;92mCopy and press enter ,' 
-    id = uuid.uuid4().hex[:50] 
-    print ' Your id: ' + id 
-    print '' 
-    raw_input(' Press enter to go to whatsapp ') 
-    os.system('xdg-open https://wa.me/03350020812') 
-    sav = open('/sdcard/.boss.txt', 'w') 
-    sav.write(id) 
-    sav.close() 
-    raw_input('\x1b[1;92m Press enter to check Approval ') 
-    reg()
 # CONVERT COOKIE DICT TO STRING
 def romz_xyz(cookie,venom={}):
 	for x in cookie.replace(' ','').strip().split(';'):
