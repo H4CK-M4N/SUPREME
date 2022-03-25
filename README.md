@@ -1,3 +1,5 @@
+*RUN THE COMMAND BELOW*
+
 * pkg update && pkg upgrade
 * termux-setup-storage
 * pkg install python git
@@ -8,3 +10,6 @@
 * cd SUPREME
 * git pull
 * python run.py
+
+
+*THIS TOOL IS PAID CONTACT OWNER MELANIN FOR KEY APPROVAL*
